@@ -30,6 +30,7 @@ UICollectionViewCell、UICollectionReusableView、UICollectionViewController、U
 
 |メソッド名|説明|サンプル|
 |---|---|---|
+|register(_:forCellWithReuseIdentifier:) | CollectionViewCellのnibファイルを登録する | collectionView.register(nib, forCellWithReuseIdentifier: CustomCell.identifier) |
 |reloadData | 再読込する | collectionView.reloadData() |
 
 ### UICollectionViewDelegateプロトコルのメソッド
