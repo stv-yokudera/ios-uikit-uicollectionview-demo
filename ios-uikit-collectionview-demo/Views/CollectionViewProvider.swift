@@ -18,7 +18,7 @@ final class CollectionViewProvider:NSObject, UICollectionViewDataSource {
     /// セクションごとのセル数を返す
     func collectionView(_ collectionView: UICollectionView,
                         numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return 2
     }
     
     /// ヘッダーまたは、フッターに値を設定する
@@ -58,9 +58,8 @@ final class CollectionViewProvider:NSObject, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView,
                         cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ItemCollectionView.identifier,
-                                                      for: indexPath) as! ItemCollectionView
-        cell.titleLabel.text = "row : \(indexPath.row)"
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CustomCollectionViewCell.identifier, for: indexPath) as! CustomCollectionViewCell
+        cell.childCollectionView.reloadData()
         return cell
     }
 }

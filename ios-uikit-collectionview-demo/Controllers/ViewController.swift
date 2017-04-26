@@ -15,6 +15,8 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        registerNib()
         setDataSource()
         setDelegate()
     }
@@ -27,6 +29,14 @@ final class ViewController: UIViewController {
     /// デリゲードを設定する
     private func setDelegate() {
         collectionView.delegate = self
+    }
+    
+    /// Nibを登録する
+    private func registerNib() {
+        
+        // CustomCollectionViewCell
+        let customCollectionViewNib = UINib(nibName: CustomCollectionViewCell.nibName, bundle: Bundle.main)
+        collectionView.register(customCollectionViewNib, forCellWithReuseIdentifier: CustomCollectionViewCell.identifier)
     }
 }
 
@@ -48,6 +58,6 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        return CGSize(width: 128, height: 128)
+        return CGSize(width: 300, height: 300)
     }
 }

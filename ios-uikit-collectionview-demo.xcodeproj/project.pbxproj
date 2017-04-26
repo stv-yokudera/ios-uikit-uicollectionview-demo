@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61066551EB10316007E720D /* UICollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61066541EB10316007E720D /* UICollectionReusableView.swift */; };
+		B61066581EB1039E007E720D /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61066561EB1039E007E720D /* CustomCollectionViewCell.swift */; };
+		B61066591EB1039E007E720D /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61066571EB1039E007E720D /* CustomCollectionViewCell.xib */; };
+		B610665C1EB10651007E720D /* ChildCollectionViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B610665B1EB10651007E720D /* ChildCollectionViewProvider.swift */; };
+		B61066601EB10703007E720D /* ChildCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B610665E1EB10703007E720D /* ChildCollectionViewCell.swift */; };
+		B61066611EB10703007E720D /* ChildCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B610665F1EB10703007E720D /* ChildCollectionViewCell.xib */; };
+		B61066631EB1079E007E720D /* ChildCollectionViewCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61066621EB1079E007E720D /* ChildCollectionViewCellItem.swift */; };
 		BC444A891E4AE7F100C724B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444A881E4AE7F100C724B3 /* AppDelegate.swift */; };
 		BC444A901E4AE7F100C724B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC444A8F1E4AE7F100C724B3 /* Assets.xcassets */; };
 		BC444A9E1E4AE7F200C724B3 /* ios_uikit_collectionview_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444A9D1E4AE7F200C724B3 /* ios_uikit_collectionview_demoTests.swift */; };
@@ -15,7 +22,6 @@
 		BC444AC01E4AE87900C724B3 /* CollectionViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444ABC1E4AE87900C724B3 /* CollectionViewProvider.swift */; };
 		BC444AC11E4AE87900C724B3 /* ItemCollectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444ABD1E4AE87900C724B3 /* ItemCollectionFooterView.swift */; };
 		BC444AC21E4AE87900C724B3 /* ItemCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444ABE1E4AE87900C724B3 /* ItemCollectionHeaderView.swift */; };
-		BC444AC31E4AE87900C724B3 /* ItemCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444ABF1E4AE87900C724B3 /* ItemCollectionView.swift */; };
 		BC444AC51E4AE88300C724B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC444AC41E4AE88300C724B3 /* ViewController.swift */; };
 		BC444AC91E4AE8E100C724B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC444AC71E4AE8E100C724B3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B61066541EB10316007E720D /* UICollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionReusableView.swift; sourceTree = "<group>"; };
+		B61066561EB1039E007E720D /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		B61066571EB1039E007E720D /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		B610665B1EB10651007E720D /* ChildCollectionViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildCollectionViewProvider.swift; sourceTree = "<group>"; };
+		B610665E1EB10703007E720D /* ChildCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildCollectionViewCell.swift; sourceTree = "<group>"; };
+		B610665F1EB10703007E720D /* ChildCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildCollectionViewCell.xib; sourceTree = "<group>"; };
+		B61066621EB1079E007E720D /* ChildCollectionViewCellItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildCollectionViewCellItem.swift; sourceTree = "<group>"; };
 		BC444A851E4AE7F100C724B3 /* ios-uikit-collectionview-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-uikit-collectionview-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC444A881E4AE7F100C724B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC444A8F1E4AE7F100C724B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,8 +65,7 @@
 		BC444ABC1E4AE87900C724B3 /* CollectionViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewProvider.swift; sourceTree = "<group>"; };
 		BC444ABD1E4AE87900C724B3 /* ItemCollectionFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionFooterView.swift; sourceTree = "<group>"; };
 		BC444ABE1E4AE87900C724B3 /* ItemCollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionHeaderView.swift; sourceTree = "<group>"; };
-		BC444ABF1E4AE87900C724B3 /* ItemCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionView.swift; sourceTree = "<group>"; };
-		BC444AC41E4AE88300C724B3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC444AC41E4AE88300C724B3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC444AC81E4AE8E100C724B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +94,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B61066531EB1030A007E720D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B61066541EB10316007E720D /* UICollectionReusableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B610665A1EB103AA007E720D /* CustomCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B61066561EB1039E007E720D /* CustomCollectionViewCell.swift */,
+				B61066571EB1039E007E720D /* CustomCollectionViewCell.xib */,
+			);
+			path = CustomCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B610665D1EB106D6007E720D /* ChildCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B610665E1EB10703007E720D /* ChildCollectionViewCell.swift */,
+				B610665F1EB10703007E720D /* ChildCollectionViewCell.xib */,
+				B61066621EB1079E007E720D /* ChildCollectionViewCellItem.swift */,
+				B610665B1EB10651007E720D /* ChildCollectionViewProvider.swift */,
+			);
+			path = ChildCollectionView;
+			sourceTree = "<group>";
+		};
 		BC444A7C1E4AE7F100C724B3 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				BC444AC61E4AE89900C724B3 /* Controllers */,
+				B61066531EB1030A007E720D /* Extensions */,
 				BC444ABB1E4AE87900C724B3 /* Views */,
 				BC444A881E4AE7F100C724B3 /* AppDelegate.swift */,
 				BC444A8F1E4AE7F100C724B3 /* Assets.xcassets */,
@@ -136,10 +177,11 @@
 		BC444ABB1E4AE87900C724B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B610665D1EB106D6007E720D /* ChildCollectionView */,
+				B610665A1EB103AA007E720D /* CustomCollectionViewCell */,
 				BC444ABC1E4AE87900C724B3 /* CollectionViewProvider.swift */,
 				BC444ABD1E4AE87900C724B3 /* ItemCollectionFooterView.swift */,
 				BC444ABE1E4AE87900C724B3 /* ItemCollectionHeaderView.swift */,
-				BC444ABF1E4AE87900C724B3 /* ItemCollectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,7 +192,6 @@
 				BC444AB81E4AE86B00C724B3 /* Main.storyboard */,
 				BC444AC41E4AE88300C724B3 /* ViewController.swift */,
 			);
-			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -222,6 +263,7 @@
 				TargetAttributes = {
 					BC444A841E4AE7F100C724B3 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PCCZJUYRT6;
 						ProvisioningStyle = Automatic;
 					};
 					BC444A981E4AE7F200C724B3 = {
@@ -261,9 +303,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61066611EB10703007E720D /* ChildCollectionViewCell.xib in Resources */,
 				BC444AC91E4AE8E100C724B3 /* LaunchScreen.storyboard in Resources */,
 				BC444A901E4AE7F100C724B3 /* Assets.xcassets in Resources */,
 				BC444ABA1E4AE86B00C724B3 /* Main.storyboard in Resources */,
+				B61066591EB1039E007E720D /* CustomCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,11 +333,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC444AC51E4AE88300C724B3 /* ViewController.swift in Sources */,
-				BC444AC31E4AE87900C724B3 /* ItemCollectionView.swift in Sources */,
+				B61066551EB10316007E720D /* UICollectionReusableView.swift in Sources */,
+				B61066581EB1039E007E720D /* CustomCollectionViewCell.swift in Sources */,
 				BC444AC21E4AE87900C724B3 /* ItemCollectionHeaderView.swift in Sources */,
+				B610665C1EB10651007E720D /* ChildCollectionViewProvider.swift in Sources */,
 				BC444A891E4AE7F100C724B3 /* AppDelegate.swift in Sources */,
+				B61066601EB10703007E720D /* ChildCollectionViewCell.swift in Sources */,
 				BC444AC01E4AE87900C724B3 /* CollectionViewProvider.swift in Sources */,
 				BC444AC11E4AE87900C724B3 /* ItemCollectionFooterView.swift in Sources */,
+				B61066631EB1079E007E720D /* ChildCollectionViewCellItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +493,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-uikit-collectionview-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-collectionview-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -457,7 +507,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-uikit-collectionview-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-collectionview-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,6 +590,7 @@
 				BC444AAF1E4AE7F200C724B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC444AB01E4AE7F200C724B3 /* Build configuration list for PBXNativeTarget "ios-uikit-collectionview-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +599,7 @@
 				BC444AB21E4AE7F200C724B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC444AB31E4AE7F200C724B3 /* Build configuration list for PBXNativeTarget "ios-uikit-collectionview-demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +608,7 @@
 				BC444AB51E4AE7F200C724B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

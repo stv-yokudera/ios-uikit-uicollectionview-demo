@@ -11,11 +11,5 @@ import UIKit
 final class ItemCollectionFooterView: UICollectionReusableView {
     
     @IBOutlet weak var titleLabel: UILabel!
-    
-    static var identifier: String {
-        get {
-            return String(describing: self)
-        }
-    }
 }
 
